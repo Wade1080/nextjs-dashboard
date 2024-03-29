@@ -1,11 +1,13 @@
 {
+  
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -39,3 +41,4 @@
     "node": ">=18.17.0"
   }
 }
+
